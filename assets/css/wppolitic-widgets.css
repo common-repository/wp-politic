@@ -1,0 +1,4123 @@
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    transition: all 0.3s ease-in-out;
+}
+
+.wp-campaign-box {
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: flex!important;
+    align-items: center;
+}
+
+.wp-campaign-image {
+    width: 47%;
+}
+
+.wp-campaign-image img {
+    width: 100%;
+}
+
+.campaign-time {
+    margin-bottom: 5px;
+}
+
+.wp-campaign-content .cdown {
+    display: inline-block;
+    margin-right: 5px;
+    color: #ea000d;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.campaign-time i {
+    color: #ea000d;
+    font-size: 15px;
+}
+
+.campaign-time .wppolitic_timer {
+    display: inline-block;
+    padding-left: 4px;
+}
+
+.wp-campaign-box h3 {
+    color: #333;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.wp-campaign-content {
+    width: 53%;
+    padding-left: 20px;
+    align-self: self-start;
+}
+
+.wp-campaign-meta {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+.wp-campaign-meta li {
+    margin-right: 10px;
+    font-size: 13px;
+    color: #555;
+}
+
+.wp-campaign-box p {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.cmapaign-redmore {
+    margin-top: 15px;
+    display: inline-block;
+    color: #555;
+    text-decoration: none;
+}
+
+.cmapaign-redmore:hover {
+    text-decoration: none;
+    color: #ea000d;
+}
+
+.wp-campaign-box h3 a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease-in-out;
+}
+
+.wp-campaign-image a img {
+    transform: scale(1);
+}
+
+.wp-campaign-box:hover .wp-campaign-image a img {
+    -webkit-transform: scale(1.43);
+    transform: scale(1.43);
+}
+
+.wp-campaign-box .wp-campaign-image a img {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+
+/*Style two*/
+
+.wpcmp_style_2 .wp-campaign-image {
+    width: 50%;
+}
+
+.wpcmp_style_2 .wp-campaign-content {
+    width: 50%;
+    padding-left: 40px;
+    align-items: center;
+}
+
+.wpcmp_style_2 .wp-campaign-box:hover .wp-campaign-image a img {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.wpcmp_style_2 .campaign-time {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: red;
+    color: #fff;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    text-align: center;
+}
+
+.wpcmp_style_2 .cdown {
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.wpcmp_style_2 .cdown .counting {
+    display: block;
+    font-size: 20px;
+}
+
+.wpcmp_style_2 .campaign-time i {
+    padding-top: 20px;
+    color: #fff;
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+
+.wp-campaign-image {
+    overflow: hidden;
+    position: relative;
+    align-self: self-start;
+}
+
+.wpcmp_style_2 .wp-campaign-content {
+    align-self: center;
+}
+
+.wpcmp_style_2 .campaign-time:before {
+    background: #f9b3b7 none repeat scroll 0 0;
+    top: 71px;
+    content: "";
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+
+/*Event Style 3*/
+
+.wppolitic_single-event>a {
+    display: block;
+}
+
+.wppolitic_single-event img {
+    width: 100%;
+}
+
+.wppolitic_single-event .wppolitic_event-meta {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 9px;
+    padding-left: 120px;
+    padding-top: 9px;
+    position: relative;
+    width: 100%;
+    min-height: 43px;
+    display: flex;
+}
+
+.wppolitic_single-event .wppolitic_event-meta .date {
+    background-color: #e03927;
+    bottom: -1px;
+    color: #fff;
+    display: block;
+    font-size: 26px;
+    height: 100px;
+    left: 0;
+    line-height: 26px;
+    padding: 4px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.wppolitic_single-event .wppolitic_event-meta .date span {
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    margin-bottom: 0;
+}
+
+.wppolitic_single-event .wppolitic_event-meta p {
+    color: #959595;
+    display: block;
+    float: left;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.wppolitic_single-event .wppolitic_event-meta p i {
+    color: #e03927;
+    display: block;
+    float: left;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 7px;
+}
+
+.wppolitic_single-event .wppolitic_event-desc {
+    margin-top: 30px;
+}
+
+.wppolitic_single-event .wppolitic_event-desc h3 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.wppolitic_single-event .wppolitic_event-desc h3 a {
+    color: #5e5e5e;
+}
+
+.wppolitic_single-event .wppolitic_event-desc h3 a:hover,
+.sin-event-small .wppolitic_event-desc a:hover {
+    color: #e03927;
+}
+
+.wppolitic_single-event .wppolitic_event-desc p {
+    color: #7c7c7c;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.sin-event-small {
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+
+.sin-event-small .event-image {
+    margin-right: 15px;
+    position: relative;
+    width: 130px;
+}
+
+.sin-event-small .event-image img {
+    width: 100%;
+}
+
+.sin-event-small .event-image .date {
+    background-color: #e03927;
+    bottom: 0;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 50px;
+    left: 0;
+    line-height: 25px;
+    padding: 8px 0;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50px;
+}
+
+.sin-event-small .event-image .date span {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.sin-event-small .wppolitic_event-desc {
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.sin-event-small .wppolitic_event-desc a {
+    color: #5e5e5e;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sin-event-small .wppolitic_event-desc p {
+    color: #7c7c7c;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.politic_event ul {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.sidebar .widget_search {
+    margin-bottom: 40px;
+}
+
+.event_img {
+    border: 1px solid #ddd;
+    line-height: 0;
+    position: relative;
+}
+
+.event_meta>ul {
+    margin-left: 116px;
+}
+
+.event_meta li {
+    float: left;
+    margin-right: 30px;
+}
+
+.event_meta li i {
+    color: #e03927;
+    margin-right: 5px;
+}
+
+.event_date {
+    background: #e03927 none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 40px;
+    left: 0;
+    line-height: 40px;
+    padding: 9px 25px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.event_date>span.word2 {
+    display: block;
+    width: 100%;
+    font-size: 26px;
+}
+
+.event_meta {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.event_content {
+    margin-top: 40px;
+}
+
+.event_content>h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.event_list .event_img {
+    border: none;
+    float: left;
+    width: 35%;
+}
+
+.event_list .event_content {
+    margin-top: 0;
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.event_list .event_date {
+    line-height: 16px;
+    font-size: 16px;
+    padding: 5px 8px;
+}
+
+.event_list .event_date>span {
+    font-size: 14px;
+}
+
+.event_list .event_content>h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.event_list .event_box+.event_box {
+    margin-top: 20px;
+}
+
+.event_content>h3 a:hover {
+    color: #e03927;
+}
+
+.politic_event .event h4 a {
+    font-size: 18px;
+}
+
+.info_of_title>p {
+    font-size: 14px;
+}
+
+.politic_event ul li a.image {
+    width: 132px;
+}
+
+.sidebar .widget.politic_event ul li {
+    border: medium none;
+}
+
+.sidebar .politic_event ul li:not(:first-child) {
+    margin-top: 30px;
+}
+
+.event h4 {
+    line-height: 16px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+/*Event Style 4*/
+
+.campaign_style4 {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.campaign_style4::before {
+    background: #000000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#e03927));
+    background: -webkit-linear-gradient(top, #000000 0%, #e03927 100%);
+    background: -o-linear-gradient(top, #000000 0%, #e03927 100%);
+    background: linear-gradient(to bottom, #000000 0%, #e03927 100%);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+    z-index: 2;
+}
+
+.campaign_style4 a img {
+    width: 100%;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.campaign_style4 .wp_politic_content_st4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    z-index: 9;
+}
+
+.campaign_style4 .wp_politic_content_st4 h3 {
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+@media only screen and (max-width: 479px) {
+    .campaign_style4 .wp_politic_content_st4 h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+
+.campaign_style4 .wp_politic_content_st4 h3 a {
+    color: #ffffff;
+}
+
+.campaign_style4 .wp_politic_content_st4 h3 a:hover {
+    text-decoration: underline;
+}
+
+.campaign_style4 .wp_politic_content_st4 ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.campaign_style4 .wp_politic_content_st4 ul li {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+    display: block;
+}
+
+.campaign_style4 .wp_politic_content_st4 ul li i {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.campaign_style4:hover a img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/*Campaign Details*/
+
+.camaign-details {
+    background: #efefef none repeat scroll 0 0;
+    margin-top: 40px;
+    padding: 30px 30px 0;
+}
+
+.camaign-details h5 {
+    color: #555;
+    font-size: 18px;
+    margin-top: 0;
+    padding-bottom: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.wppolitic_organizer>p {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.wppolitic_organizer>h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#wppolitic_googleMap {
+    height: 300px;
+    width: 100%;
+}
+
+.wppolitic_campaign-details .wp-campaign-meta {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.wppolitic_campaign-details h3 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.wppolitic_campaign-details .wp-campaign-meta li {
+    font-size: 18px;
+}
+
+
+/*Style 2*/
+
+.wp_politic_campaign_style2 .wp-campaign-image img {
+    width: auto;
+    display: inline-block;
+}
+
+.wp_politic_campaign_style2 .wp-campaign-box {
+    border: 1px solid rgb(239, 239, 239);
+    padding: 40px 20px;
+    transition: .3s;
+}
+
+.wp_politic_campaign_style2.ht_hover_box .wp-campaign-box:hover h3,
+.wp_politic_campaign_style2.ht_hover_box .wp-campaign-box:hover p {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/*Campgin Details CSS*/
+
+.ht-servie-details-image img {
+    width: 100%;
+}
+
+.ht-servie-details-image {
+    margin-bottom: 30px;
+}
+
+.wp-campaign-detals-content h3 {
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 0;
+    line-height: 1;
+    color: #333;
+}
+
+.wp-wppolitic_campaign-details-content p {
+    font-size: 15px;
+    line-height: 29px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    color: #555;
+}
+
+.campaign-active .slick-arrow {
+    background: none;
+    color: #000;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: -39px;
+    font-size: 42px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.campaign-active .slick-arrow.btn-prev {
+    right: auto;
+    left: -39px;
+}
+
+.campaign-active .slick-arrow:hover {
+    color: #ea000d;
+}
+
+.wppolitic_indicator-style-two .slick-arrow {
+    opacity: 1;
+    top: -79px;
+    transform: translateY(0);
+    right: 0px;
+    left: auto;
+    width: 35px;
+    height: 35px;
+    line-height: 32px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 32px;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+}
+
+.wppolitic_indicator-style-two .slick-arrow:hover {
+    border-color: #ea000d;
+    color: #fff;
+    background: #ea000d;
+}
+
+.wppolitic_indicator-style-two .slick-arrow.btn-prev {
+    right: 45px;
+    left: auto;
+}
+
+.related-campaign-active .slick-list,
+.campaign-active .slick-list {
+    margin: 0 -10px;
+}
+
+.related-campaign-active .wp-campaign-box {
+    margin-bottom: 0;
+}
+
+.related-campaign-active .wp-campaign-box,
+.campaign-active .wp-campaign-box {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.htrelated-title h3 {
+    font-size: 28px;
+    margin: 0 0 30px;
+    padding: 0;
+    font-weight: 500;
+    color: #333;
+}
+
+.wp_politic_campaign_style2.ht_hover_box .wp-campaign-box h3 a {
+    transition: all 0s ease-in-out;
+}
+
+.related-area-wp-campaign {
+    margin-top: 50px;
+}
+
+.wppolitic-pagination .nav-links>ul {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-bottom: 0;
+}
+
+.wppolitic-pagination .nav-links>ul>li,
+.pagination>a,
+.page-links>span:not(.page-links-title),
+.page-links>a {
+    display: inline-block;
+    padding: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.wppolitic-pagination .nav-links>ul>li>a,
+.wppolitic-pagination .nav-links>ul>li>span,
+.pagination>a,
+.page-links>span:not(.page-links-title),
+.page-links>a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    margin: 0 7px;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    color: #000;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.pagination>a,
+.page-links>span:not(.page-links-title),
+.page-links>a {
+    display: inline-block;
+}
+
+.wppolitic-pagination .nav-links>ul>li>span.current,
+.wppolitic-pagination .nav-links>ul>li:hover a,
+.pagination>a:hover,
+.page-links>span:not(.page-links-title),
+.page-links>a:hover {
+    color: #ea000d;
+    border-color: #ea000d;
+}
+
+.wppolitic-pagination .next.page-numbers,
+.wppolitic-pagination .prev.page-numbers {
+    float: none;
+}
+
+.wppolitic_event-list li,
+.wppolitic_event-list li a {
+    color: #333333;
+    font-size: 15px;
+    font-weight: normal;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 24px;
+    list-style: none;
+    font-weight: 500;
+}
+
+.wppolitic_event-list ul {
+    padding-left: 0;
+}
+
+.wppolitic_event-list li span {
+    font-weight: 600;
+}
+
+.wppolitic_event-list li a:hover {
+    color: #ea000d;
+}
+
+.wppolitic_event-list {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #eaeaea #eaeaea;
+    -webkit-border-image: none;
+    -o-border-image: none;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding: 28px 20px 16px;
+}
+
+.wppolitic_event-list li i.ex {
+    padding-left: 3px;
+}
+
+.wppolitic_timer.wppolitic_timer-details span {
+    color: #fff;
+    display: inline-block;
+    padding: 9px 26px 0;
+}
+
+.wppolitic_timer.wppolitic_timer-details .cdown {
+    color: #fff;
+    position: relative;
+}
+
+.wppolitic_timer.wppolitic_timer-details .cdown:after {
+    content: "";
+    width: 40px;
+    background: #ddd;
+    height: 1px;
+    bottom: -8px;
+    position: absolute;
+    left: 50%;
+    z-index: 8;
+    transform: translateX(-50%);
+}
+
+.wppolitic_timer.wppolitic_timer-details .cdown:last-child:after {
+    display: none;
+}
+
+.wppolitic_timer.wppolitic_timer-details>div {
+    background-color: #ea000d;
+    display: flex;
+    width: 100%;
+    font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.wppolitic_timer.wppolitic_timer-details {
+    bottom: inherit;
+    position: inherit;
+    right: inherit;
+    text-align: center;
+    width: 100%;
+}
+
+.event-details-slider {
+    margin-top: 40px;
+}
+
+.wppolitic_campaign_content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.wppolitic_campaign_content ul li+li {
+    margin-top: 10px;
+}
+
+.wppolitic_campaign_content {
+    font-size: 15px;
+}
+
+.wppolitic_campaign_content p:last-child {
+    margin-bottom: 0;
+}
+
+.wppolitic_campaign_content h3 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+/*Campaign Style 5*/
+
+.campaign_new_style .slick-slide {
+    margin: 1px;
+}
+
+.wppolitic_single_event_5 {
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 1px;
+}
+
+.wppolitic_single_event_5 img {
+    width: 100%;
+}
+
+.wppolitic_event_meta_5 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+
+.wppolitic_event_desc_5 {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    z-index: 3;
+}
+
+.wppolitic_event_desc_5 h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 36px;
+    color: #fff;
+}
+
+.wppolitic_single_event_5 span.date {
+    background: #e03927;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.wppolitic_slider_nav.slick-vertical .slick-slide {
+    margin-top: 0px;
+}
+
+.wppolitic_slider_nav.slick-initialized.slick-slider.slick-vertical {
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.wppolitic_slider_nav .wppolitic_event_desc_5 h3 {
+    font-size: 22px;
+}
+
+.wppolitic_slider_nav .wppolitic_event_desc_5 h5 {
+    font-size: 14px;
+}
+
+.wppolitic_slider_nav .wppolitic_event_desc_5 {
+    display: flex;
+    height: 100%;
+    bottom: 0;
+    align-items: center;
+    left: 0;
+    justify-content: center;
+    text-align: center;
+    right: 0;
+    flex-direction: column;
+}
+
+.wppolitic_slider_nav .wppolitic_single_event_5 span.date {
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.wppolitic_event_desc_5 h5 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.wppolitic_single_event_5:before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .wppolitic_timer.wppolitic_timer-details {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .wppolitic_single-event .wppolitic_event-meta .date {
+        bottom: 100%;
+        font-size: 20px;
+        height: 65px;
+        line-height: 26px;
+        padding: 4px;
+        width: 67px;
+    }
+    .wppolitic_single-event .wppolitic_event-meta .date span {
+        font-size: 28px;
+        line-height: 29px;
+    }
+    .wppolitic_single-event .wppolitic_event-meta {
+        padding-left: 0;
+    }
+    .wppolitic_campaign_content h3 {
+        font-size: 25px;
+    }
+    .wppolitic_event-list li,
+    .wppolitic_event-list li a {
+        margin-bottom: 10px;
+    }
+}
+
+
+/*Portfolio Style Css */
+
+.wppolitic-filter-menu-list {
+    margin-bottom: 23px;
+}
+
+.wppolitic-filter-menu-list button,.wppolitic-filter-menu-list span {
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    margin: 0 15px;
+    position: relative;
+    padding: 0;
+    text-transform: capitalize;
+    position: relative;
+    outline: none;
+}
+
+.wppolitic-filter-menu-list button.is-checked {
+    color: #1bb4b9;
+}
+
+.wppolitic-filter-menu-list button:focus {
+    outline: none;
+}
+
+.wppolitic-filter_item_box {
+    padding: 0px;
+}
+
+.wppolitic-ft_item_image,.wppolitic-ft_item_image2 {
+    display: block;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.wppolitic-ft_item_image::before,.wppolitic-ft_item_image2::before {
+    background: #000;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+}
+
+.wppolitic-ft_item_image img, .wppolitic-ft_item_image2 img {
+    width: 100%;
+}
+
+.wppolitic-grid-item:hover .wppolitic-ft_item_image::before,
+ .wppolitic-filter_item_box2:hover .wppolitic-ft_item_image2::before {
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+}
+
+.wppolitic-grid-item:hover .wppolitic-ft_item_image a.icon_link {
+    opacity: 1;
+}
+
+.wppolitic-ft_item_image a.icon_link,.wppolitic-ft_item_image2 a.icon_link {
+    background-color: transparent;
+    border-radius: 50%;
+    color: #ffffff;
+    height: 65px;
+    line-height: 65px;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    width: 65px;
+    z-index: 9;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.wppolitic-cat-wrapper {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    bottom: 0%;
+    text-align: center;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
+    padding: 20px;
+    transform: translateY(50%);
+}
+
+.wppolitic-cat-wrapper>a {
+    color: #fff;
+}
+
+.wppolitic-ft_item_image a.icon_link {
+    display: inline-block;
+}
+
+.wppolitic-cat-wrapper>a:hover {
+    color: #1bb4b9;
+}
+
+.wppolitic-grid-item:hover .wppolitic-cat-wrapper {
+    opacity: 1;
+    visibility: visible;
+    bottom: 50%;
+}
+
+.wppolitic-cat-wrapper h5 a {
+    color: #fff;
+}
+.wppolitic-cat-wrapper h5 {
+    font-size: 16px;
+    color: #fff;
+     margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.wppolitic-cat-wrapper h6 {
+    font-size: 13px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+
+/*Gallery*/
+
+.wplolitic_gallery_ars .wppolitic-ft_item_image a.icon_link, .wppolitic-ft_item_image2 a.icon_link  {
+    top: 150%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    visibility: hidden;
+}
+
+.wplolitic_gallery_ars .wppolitic-ft_item_image:hover a.icon_link, .wppolitic-ft_item_image2:hover a.icon_link {
+    top: 50%;
+    visibility: visible;
+}
+
+
+/*gallery2*/
+.wppolitic_all_item_wrapper2{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.wppolitic-filter_item_box2{
+    display: none;
+}
+.wppolitic_all_item_wrapper2 .loading_text{
+    text-align: center;
+}
+.loading_text{
+    display: none;
+    text-align: center;
+    padding: 150px;
+    width: 100%;
+}
+.loadmore_button{
+    display: none;
+}
+
+.loadmore_button {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+#loadMore{
+    background: #e03927;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: all 0.25s ease-out;
+    -webkit-font-smoothing: antialiased;
+}
+#loadMore:hover {
+    background-color: #021737;
+}
+
+span.wppolitic-gallery-title {
+    position: absolute;
+    bottom: -100%;
+    z-index: 1;
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    left: 0;
+    padding: 15px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.wppolitic-ft_item_image2:hover span.wppolitic-gallery-title{
+    bottom: 0;
+    opacity: 1;
+}
+
+
+.wppolitic-selfhosted-video-wrapper{
+    max-width: 800px;
+    max-height: 600px;
+}
+.fancybox-slide video{
+    background-color: transparent;
+}
+
+/*Slider Area*/
+
+.wppolitic-slider-area {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.wppolitic-slide-content {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.wppolitic-slide-content h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 2px;
+    animation-delay: 0.8s;
+    text-transform: capitalize;
+    padding: 0;
+}
+
+.wppolitic-slide-content h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0px;
+    animation-delay: 1.2s;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.wppolitic-slide-content p {
+    animation-delay: 1.3s;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.wppolitic-slide-content h2 span,
+.wppolitic-slide-content h1 span {
+    color: #ea000d;
+}
+
+.wppolitic-slide-btn a {
+    background: transparent;
+    color: #fff;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transform-origin: 0 100% 0;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    vertical-align: middle;
+    animation-delay: 1.6s;
+    transition: .3s;
+    margin-top: 30px;
+    font-size: 14px;
+    padding: 0 35px;
+    font-weight: 500;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.wppolitic-slide-btn a:hover {
+    background: #ea000d;
+    color: #fff;
+    border-color: #ea000d;
+}
+
+.wppolitic-slide-btn .read-more {
+    margin-top: 30px;
+}
+
+
+/* Slider Dot Css */
+
+.wppolitic-slider-area .owl-dots {
+    bottom: 50%;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: block;
+    right: 25px;
+    transform: translateY(50%);
+    left: auto;
+    position: absolute;
+    width: auto;
+    text-align: center;
+}
+
+.wppolitic-slider-area .owl-dots .owl-dot {
+    display: block;
+    margin-right: 0;
+    color: #ea000d;
+    font-size: 25px;
+}
+
+.wppolitic-slider-area .owl-dot.active {
+    box-shadow: unset;
+}
+
+.wppolitic-slider-item {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.dot_bottom_left.wppolitic-slider-area .owl-dots,
+.dot_bottom_right.wppolitic-slider-area .owl-dots,
+.dot_hori_center.wppolitic-slider-area .owl-dots {
+    display: flex;
+    bottom: 60px;
+    right: auto;
+    left: 15px;
+    transform: translate(0);
+}
+
+.dot_bottom_right.wppolitic-slider-area .owl-dots {
+    left: auto;
+    right: 15px;
+}
+
+.dot_hori_center.wppolitic-slider-area .owl-dots {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot_left_center.wppolitic-slider-area .owl-dots {
+    right: auto;
+    left: 25px;
+}
+
+
+/* Slider Animation Css */
+
+.wppolitic-slide-content * {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-animation-name: fadeOutDown;
+    animation-name: fadeOutDown;
+}
+
+.active .wppolitic-slide-content h2 {
+    -webkit-animation-name: lightSpeedIn;
+    animation-name: lightSpeedIn;
+}
+
+.active .wppolitic-slide-content h1 {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.active .wppolitic-slide-content .wppolitic-slide-btn a {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+.active .wppolitic-slide-content p {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+.wppolitic-slider-area .owl-nav div {
+    position: absolute;
+    top: 50%;
+    left: -39px;
+    z-index: 2;
+    width: 50px;
+    color: #000;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    font-size: 42px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wppolitic-slider-area .owl-carousel:hover .owl-nav div {
+    opacity: 1;
+}
+
+.wppolitic-slider-area .owl-nav div:hover {
+    color: #ea000d;
+}
+
+.wppolitic-slider-area .owl-nav div.owl-next {
+    left: auto;
+    right: -39px;
+}
+
+.wppolitic-slider-area:hover .owl-nav div {
+    left: 0;
+}
+
+.wppolitic-slider-area:hover .owl-nav div.owl-next {
+    left: auto;
+    right: 0;
+}
+
+.wppolitic-slider-item::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+}
+
+.active .wppolitic-slide-content p {
+    -webkit-animation-name: lightSpeedIn;
+    animation-name: lightSpeedIn;
+}
+
+.wppolitic-slider-active .owl-nav div span {
+    position: absolute;
+    right: 62px;
+    top: 3px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease 0s;
+    color: #ea000d;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.arrow_hover .wppolitic-slider-active .owl-nav div:hover span {
+    opacity: 1;
+    visibility: visible;
+}
+
+.wppolitic-slider-active .owl-nav div.owl-prev span {
+    right: auto;
+    left: 62px;
+}
+
+
+/*Slider Style Two*/
+
+.wppolitic-slide-frnt-img {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+
+.active .wppolitic-slide-frnt-img img {
+    animation-delay: 0.5s;
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+
+/*Slider Style 4*/
+
+.wppolitic-slide-content h2 {
+    position: relative;
+    display: inline-block;
+}
+
+.wppolitic-slide-content h2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    border-bottom: 0px solid #fff;
+}
+
+a.wppolitic_popup_slider {
+    display: inline-block;
+    border: none;
+    padding: 0;
+    margin-left: 5px;
+}
+
+a.wppolitic_popup_slider:hover {
+    background: none!important;
+    border: none;
+    color: inherit;
+}
+
+a.wppolitic_popup_slider img {
+    max-width: 100%;
+    display: inline-block!important;
+    width: auto!important;
+    margin-left: 15px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .wppolitic-slide-content h1 {
+        font-size: 50px;
+    }
+    .wppolitic-slide-content h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wppolitic-slide-content h1 {
+        font-size: 37px;
+    }
+    .wppolitic-slide-content h2 {
+        font-size: 23px;
+        margin: 0 0 6px;
+    }
+    .wppolitic-slide-content {
+        height: 500px;
+    }
+    .wppolitic-slide-content p br {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .wppolitic-slide-content h1 {
+        font-size: 20px;
+    }
+    .wppolitic-slide-content h2 {
+        font-size: 15px;
+        margin: 0 0 5px;
+    }
+    .wppolitic-slide-content {
+        height: 350px;
+    }
+    .wppolitic-slide-btn a {
+        height: 35px;
+        line-height: 35px;
+        font-size: 13px;
+        padding: 0 16px;
+    }
+    .wppolitic-slide-content p br {
+        display: none;
+    }
+}
+
+
+/* Section Titel CSS ============= */
+
+.wppolitic-section-titel h3 {
+    display: block;
+    position: relative;
+    margin: 0 0 13px;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-top: 0;
+}
+
+.wppolitic-section-titel.dotborder h3 {
+    margin-bottom: 30px;
+}
+
+.wppolitic-section-titel.dotborder.bdrs2 h3 {
+    padding-bottom: 5px;
+}
+
+.wppolitic-section-titel h3>span,
+.wppolitic-section-titel h4>span {
+    color: #ea000d;
+}
+
+.wppolitic-section-titel h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1;
+    color: #ea000d;
+}
+
+.wppolitic-section-titel {
+    margin-bottom: 45px;
+    margin-top: 90px;
+}
+
+.wppolitic-title-style-three>span i {
+    color: #7c7c7c;
+}
+
+.wppolitic-section-titel.dotborder.bdrs2 h3::before,
+.wppolitic-title-style-three.bdrs2>span>span:after,
+.wppolitic-title-style-three.bdrs2>span>span:before,
+.wppolitic-section-titel.dotborder h3::after,
+.wppolitic-title-style-three>span:after,
+.wppolitic-title-style-three>span:before {
+    border-bottom: 2px solid #7c7c7c;
+    bottom: -10px;
+    content: "";
+    height: auto;
+    position: absolute;
+    width: 70px;
+}
+
+.wppolitic-section-titel.dotborder.bdrs2 h3::before {
+    bottom: -5px;
+    width: 45px;
+}
+
+.wppolitic-section-titel p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.wppolitic-section-titel.dotborder.text-right h3::after,
+.wppolitic-section-titel.dotborder.bdrs2.text-right h3::before {
+    right: 0px;
+}
+
+.wppolitic-section-titel.dotborder.text-left h3::after {
+    left: 0px;
+}
+
+.wppolitic-section-titel.dotborder.bdrs2.text-left h3::before {
+    left: 0px;
+}
+
+.wppolitic-section-titel.dotborder.text-center h3::after,
+.wppolitic-section-titel.dotborder.text-center h3::before {
+    left: 50%;
+    bottom: -13px;
+    transform: translateX(-50%);
+}
+
+.wppolitic-section-titel.dotborder.text-center h3::before {
+    bottom: -8px;
+}
+
+.wppolitic-section-titel.dotborder.text-center h3 {
+    margin-bottom: 30px;
+}
+
+.wppolitic-title-style-three h3 {
+    margin-bottom: 30px;
+}
+
+.wppolitic-title-style-three>span {
+    display: inline-block;
+    position: relative;
+    top: -19px;
+    padding: 0 10px;
+}
+
+.wppolitic-title-style-three.bdrs2>span {
+    top: -23px;
+}
+
+.wppolitic-title-style-three>span i {
+    display: block;
+    font-size: 20px;
+}
+
+.wppolitic-title-style-three>span::after,
+.wppolitic-title-style-three.bdrs2>span>span:after {
+    left: 100%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.wppolitic-title-style-three>span::before,
+.wppolitic-title-style-three.bdrs2>span>span:before {
+    right: 100%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.wppolitic-title-style-three.bdrs2>span>span:after,
+.wppolitic-title-style-three.bdrs2>span>span:before {
+    width: 45px;
+    margin-bottom: 6px;
+}
+
+.wppolitic-title-style-four::after,
+.title-style-six h3 span:after {
+    bottom: -50px;
+    content: "";
+    height: 35px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 1px;
+    border: 1px solid #000;
+}
+
+.title-style-six h3 span,
+.wppolitic-section-titel h3 {
+    position: relative;
+}
+
+.title-style-six h3 span:after {
+    bottom: 9px;
+    height: auto;
+    left: 100%;
+    margin: 0 13px auto;
+    width: 1px;
+    border: 1px solid #e03927;
+    border-right: 40px solid #e03927;
+}
+
+.wppolitic-section-titel.bdr_s_top h3:after {
+    position: absolute;
+    bottom: 100%;
+    content: "";
+    height: 1px;
+    width: 1px;
+    border: 6px solid #000;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 991px) {
+    .wppolitic-section-titel {
+        margin-bottom: 25px;
+        margin-top: 50px;
+    }
+    .wppolitic-section-titel h3 {
+        font-size: 28px;
+    }
+    .wppolitic-section-titel p br {
+        display: none;
+    }
+    .wppolitic-section-titel p {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .wppolitic-section-titel h3 {
+        font-size: 23px;
+    }
+}
+
+
+/*  Feature Box*/
+
+.wppolitic-feature-box {
+    border: 1px solid transparent;
+    padding: 0px 25px;
+    transition: .3s;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.wppolitic-feature-box h3 {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #333;
+    transition: .3s;
+    margin-bottom: 10px;
+    position: relative;
+    margin-bottom: 39px;
+}
+
+.wppolitic-feature-box h3:after {
+    content: "";
+    border-bottom: 2px solid #ccc;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    bottom: -19px;
+    width: 50px;
+    transform: translateX(-50%);
+}
+
+.wppolitic-feature-box p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    transition: .3s;
+    margin-bottom: 0;
+}
+
+.wppolitic-feature-image {
+    width: 92px;
+    height: 92px;
+    background: #f6f6f6;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 2;
+}
+
+.wppolitic-feature-image i {
+    font-size: 30px;
+    transition: all 0.3s ease 0s;
+    width: 60px;
+    height: 0px;
+    text-align: center;
+    background: #fff;
+    border-radius: 100%;
+    color: #a7a7a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wppolitic-feature-box:hover .wppolitic-feature-image {
+    background: #ea000d;
+}
+
+.wppolitic-feature-box:hover h3:after {
+    border-color: #ea000d;
+}
+
+.single-feature:hover i,
+.single-feature:hover h3,
+.single-feature:hover p {
+    color: #fff;
+    transition: .3s
+}
+
+
+/*Shap Css*/
+
+.wppolitic-feature-image .shape {
+    position: absolute;
+    left: 10px;
+    bottom: 11px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    transform-origin: left bottom;
+    width: 1px;
+    height: 0;
+    background-color: #2d3e50;
+    display: block;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease 0.1s;
+    -o-transition: all 0.3s ease 0.1s;
+    transition: all 0.3s ease 0.1s;
+}
+
+.wppolitic-feature-box .wppolitic-feature-image .shape::before,
+.wppolitic-feature-box .wppolitic-feature-image .shape::after {
+    height: 0;
+    width: 1px;
+    background-color: #2d3e50;
+    content: "";
+    bottom: -10px;
+    position: absolute;
+    z-index: 1;
+}
+
+.wppolitic-feature-box .wppolitic-feature-image .shape::before {
+    right: 7px;
+    -webkit-transition: all 0.3s ease 0.2s;
+    -o-transition: all 0.3s ease 0.2s;
+    transition: all 0.3s ease 0.2s;
+}
+
+.wppolitic-feature-box .wppolitic-feature-image .shape::after {
+    left: 7px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.wppolitic-feature-box:hover .wppolitic-feature-image .shape,
+.wppolitic-feature-box:hover .wppolitic-feature-image .shape::before,
+.wppolitic-feature-box:hover .wppolitic-feature-image .shape::after {
+    height: 115px;
+}
+
+.wppolitic-feature-box:hover .wppolitic-feature-image .shape::before {
+    height: 115px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.wppolitic-feature-box:hover .wppolitic-feature-image .shape::after {
+    height: 115px;
+    -webkit-transition: all 0.3s ease 0.2s;
+    -o-transition: all 0.3s ease 0.2s;
+    transition: all 0.3s ease 0.2s;
+}
+
+
+/*----------------------------------------
+  Timeline
+----------------------------------------*/
+
+.what-top.line {
+    margin-bottom: 36px;
+}
+
+.timeline-area {
+    background-color: #f6f6f6;
+}
+
+.wppolitic_timeline-wraper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.wppolitic_timeline-wraper::before {
+    background: #dedede none repeat scroll 0 0;
+    content: "";
+    height: 95%;
+    left: 50%;
+    margin-left: -0.5px;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+
+.sin-timeline {
+    float: right;
+    z-index: 2;
+    width: 50%;
+    position: relative;
+}
+
+.sin-timeline:hover {
+    z-index: 1;
+}
+
+.sin-timeline:nth-child(2n) {
+    margin-top: 190px;
+}
+
+.sin-timeline::before {
+    width: 11px;
+    height: 11px;
+    border: 1px solid #d2d2d2;
+    background: #fff;
+    position: absolute;
+    left: -6px;
+    right: auto;
+    content: "";
+    border-radius: 50px;
+    top: 135px;
+}
+
+.sin-timeline:hover::before {
+    border: 1px solid #ea000d;
+    background: #ea000d;
+}
+
+.sin-timeline:nth-child(2n)::before {
+    right: -6px;
+    left: auto;
+}
+
+.sin-timeline::after {
+    bottom: 74%;
+    content: "";
+    height: 10000%;
+    left: -0.5px;
+    position: absolute;
+    width: 1px;
+    opacity: 0;
+    border-right: 1px solid #ea000d;
+}
+
+.sin-timeline:nth-child(2n)::after {
+    left: auto;
+    right: -0.5px;
+}
+
+.sin-timeline:hover::after {
+    opacity: 1;
+}
+
+.wppolitic_timeline-date {
+    position: absolute;
+    top: 133px;
+    display: block;
+    line-height: 14px;
+    font-size: 15px;
+    color: #333;
+    letter-spacing: .3px;
+}
+
+.sin-timeline:hover .wppolitic_timeline-date {
+    color: #ea000d;
+}
+
+.sin-timeline:nth-child(2n) .wppolitic_timeline-content {
+    padding-right: 127px;
+}
+
+.sin-timeline:nth-child(2n+1) .wppolitic_timeline-content {
+    padding-left: 127px;
+}
+
+.sin-timeline:nth-child(2n) .wppolitic_timeline-date {
+    right: 34px;
+}
+
+.sin-timeline:nth-child(2n+1) .wppolitic_timeline-date {
+    left: 34px;
+}
+
+.wppolitic_timeline-img {
+    display: block;
+    position: relative;
+}
+
+.wppolitic_timeline-img::before {
+    position: absolute;
+    left: -18px;
+    top: 133px;
+    content: "";
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 9px solid #333;
+    border-left: 9px solid transparent;
+}
+
+.sin-timeline:nth-child(2n) .wppolitic_timeline-img::before {
+    right: -18px;
+    left: auto;
+    border-left: 9px solid #333;
+    border-right: 9px solid transparent;
+}
+
+.wppolitic_timeline-text>h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 19px;
+    margin-top: 0;
+}
+
+.wppolitic_timeline-text>h3 a {
+    color: #333333;
+}
+
+.wppolitic_timeline-text {
+    background-color: #fff;
+    padding: 27px 14px 52px;
+    border: 1px solid #E7E7E7;
+    border-top: 0;
+}
+
+.wppolitic_timeline-text>p {
+    line-height: 24px;
+    font-size: 13px;
+}
+
+.wppolitic_timeline-img>img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    width: 100%;
+}
+
+.sin-timeline:hover .wppolitic_timeline-img>img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+@media (max-width: 767px) {
+    .wppolitic_timeline-img:before {
+        border-color: transparent #333 transparent transparent;
+        border-style: solid;
+        border-width: 9px;
+        content: "";
+        height: 0;
+        left: 50%;
+        margin-left: -11px;
+        position: absolute;
+        top: -17px;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .sin-timeline:nth-child(2n+1) .wppolitic_timeline-content {
+        padding-left: 0;
+        padding-top: 32px;
+    }
+    .sin-timeline:nth-child(2n+1) .wppolitic_timeline-date {
+        left: 50%;
+        margin-left: -37px;
+        top: 0;
+    }
+    .wppolitic_timeline-wraper .span-6 {
+        width: calc(100% / 12 * 12 - 20px);
+    }
+    .sin-timeline:before,
+    .wppolitic_timeline-wraper:before,
+    .counter-top:before {
+        display: none;
+    }
+    .wppolitic_timeline-wraper a img {
+        width: 100%;
+    }
+    .sin-timeline:nth-child(2n) .wppolitic_timeline-content {
+        padding-right: 0;
+    }
+    .sin-timeline:nth-child(2n) .wppolitic_timeline-content {
+        padding-left: 0;
+        padding-top: 32px;
+    }
+    .sin-timeline:nth-child(2n) .wppolitic_timeline-date {
+        margin-left: -37px;
+        top: 0;
+    }
+    .wppolitic_timeline-wraper .sin-timeline:nth-child(2n) .wppolitic_timeline-date {
+        left: 50%;
+        right: auto;
+    }
+    .sin-timeline:nth-child(2n) .wppolitic_timeline-img:before {
+        border-left: 9px solid #333;
+        border-right: 9px solid transparent;
+        right: auto;
+        left: 50%;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+    .sin-timeline:nth-child(2n),
+    .sin-timeline:nth-child(2n+1) {
+        margin-top: 40px;
+    }
+    .sin-timeline::after {
+        display: none;
+    }
+    .sin-timeline {
+        width: 100%;
+    }
+    .wppolitic_timeline-text {
+        padding: 27px 14px 20px;
+    }
+    .sin-timeline:first-child {
+        margin-top: 0;
+    }
+}
+
+
+/*----
+   Timeline Style Two
+-----------------------------------------*/
+
+.wppolitic_timeline-wrap {
+    position: relative;
+    z-index: 1;
+}
+
+.wppolitic_timeline-wrap::before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -3px;
+    content: "";
+    background-color: #505050;
+    width: 6px;
+    height: 100%;
+    border-radius: 50px;
+    z-index: -2;
+}
+
+@media only screen and (max-width: 767px) {
+    .wppolitic_timeline-wrap::before {
+        left: 0;
+        margin-left: 0;
+    }
+}
+
+.wppolitic_timeline-wrap .wppolitic_timeline-proces {
+    border-radius: 50px;
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    background-color: #e03927;
+    width: 6px;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .wppolitic_timeline-wrap .wppolitic_timeline-proces {
+        left: 0;
+        margin-left: 0;
+    }
+}
+
+.wppolitic_timeline {
+    padding: 30px 0 20px;
+}
+
+.wppolitic_timeline .date {
+    text-align: right;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .wppolitic_timeline .date {
+        text-align: left;
+        padding-left: 45px;
+        padding-right: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+.wppolitic_timeline .date .dot {
+    background-color: #3a3a3a;
+    border: 6px solid #717171;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    right: -10px;
+    left: auto;
+    top: 2px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+@media only screen and (max-width: 767px) {
+    .wppolitic_timeline .date .dot {
+        right: auto;
+        left: 7px;
+    }
+}
+
+.wppolitic_timeline .date h4 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 24px;
+    margin: 0;
+}
+
+.wppolitic_timeline .wppolitic_tm-content {
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .wppolitic_timeline .wppolitic_tm-content {
+        text-align: left;
+        padding-left: 45px;
+        padding-right: 15px;
+    }
+}
+
+.wppolitic_timeline .wppolitic_tm-content h4 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 12px;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.wppolitic_timeline .wppolitic_tm-content p {
+    color: #efefef;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.wppolitic_timeline:nth-child(2n) .date {
+    text-align: left;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    padding-right: 15px;
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .wppolitic_timeline:nth-child(2n) .date {
+        text-align: left;
+        padding-left: 45px;
+        padding-right: 15px;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+}
+
+.wppolitic_timeline:nth-child(2n) .date .dot {
+    left: -10px;
+    right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .wppolitic_timeline:nth-child(2n) .date .dot {
+        right: auto;
+        left: 7px;
+    }
+}
+
+.wppolitic_timeline:nth-child(2n) .wppolitic_tm-content {
+    text-align: right;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .wppolitic_timeline:nth-child(2n) .wppolitic_tm-content {
+        text-align: left;
+        padding-left: 45px;
+        padding-right: 15px;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+}
+
+.wppolitic_timeline.hover .date .dot {
+    background-color: #ffffff;
+    border-color: #e03927;
+}
+
+
+/* =============  funfact  ============= */
+
+.wppolitic-funcfact-count span {
+    color: #fff;
+    display: inline-block;
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.wppolitic-funcfact-count span::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.wppolitic-funcfact-count h3 {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.wppolitic_coutner_icon i {
+    color: #fff;
+    font-size: 24px;
+}
+
+.wppolitic_coutner_icon img {
+    display: inline-block;
+}
+
+
+/*style two*/
+
+.wppolitic-counter-all {
+    display: flex;
+    width: 100%;
+    max-width: 370px;
+    margin: auto;
+}
+
+.wppolitic-counter-top {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+.wppolitic-counter-bottom {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 0px;
+    width: 45%;
+}
+
+.wppolitic-counter-next h2 {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.wppolitic-counter-top {
+    position: relative;
+}
+
+.wppolitic-counter-top::before {
+    background: #b5b5b5 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    -webkit-transform: rotate(-62deg);
+    -ms-transform: rotate(-62deg);
+    transform: rotate(-62deg);
+    width: 61px;
+}
+
+.cnt-one h1 {
+    color: #333;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .wppolitic-counter-top::before {
+        right: -22px;
+        top: 30px;
+        width: 59px;
+    }
+    .cnt-one h1 {
+        color: #333;
+        font-size: 25px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (max-width: 767px) {
+    .cnt-one h1 {
+        font-size: 28px;
+        margin-top: 0;
+    }
+    .wppolitic-counter-next h2 {
+        margin-bottom: 0px;
+    }
+    .wpp-sd-none {
+        display: none!important;
+    }
+}
+
+
+/* Tablet desktop :575px. */
+
+@media (max-width: 575px) {
+    .wppolitic-counter-top::before {
+        right: -20px;
+        top: 25px;
+        width: 61px;
+        transform: rotate(-90deg);
+    }
+    .wpp-sd-none {
+        display: none!important;
+    }
+}
+
+
+/*Team Css*/
+
+.wppolitic-teamper-title h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    padding: 0;
+    display: inline-block;
+}
+
+.wppolitic-teamper-title span {
+    display: block;
+}
+
+.wppolitic-team-thumb-img {
+    position: relative;
+}
+
+.wppolitic-team-thumb-img img {
+    width: 100%;
+}
+
+.wppolitic-team-thumb-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.wppolitic-team-social:after {
+    background: #000 none repeat scroll 0 0;
+    bottom: 0px;
+    content: "";
+    height: 0;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    text-align: center;
+    top: auto;
+    -webkit-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    width: 100%;
+}
+
+.wppolitic-team-social>ul li {
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+}
+
+.wppolitic-team-social>ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.wppolitic-team-social {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.wppolitic-team-single-item:hover .wppolitic-team-social:after {
+    height: 100%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+
+.wppolitic-team-single-item:hover .wppolitic-team-social {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.wppolitic-team-social>ul li a i {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 8px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 35px;
+}
+
+.wppolitic-team-social>ul li a i:hover {
+    border: 1px solid #ea000d;
+    color: #fff;
+    background: #ea000d;
+}
+
+
+/*team details*/
+
+.team-details-text h1 {
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.team-details-text>h3 {
+    color: #ea000d;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 3px 0 20px;
+}
+
+.team-details-text>p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 28px;
+}
+
+.team-details-text>p span {
+    color: #333;
+}
+
+.team-icon>ul {
+    float: right;
+}
+
+.team-icon li {
+    display: inline-block;
+}
+
+.team-icon a {
+    color: #9a9a9a;
+    font-size: 18px;
+    padding-left: 30px;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.team-icon a:hover {
+    color: #ea000d;
+}
+
+.team-icon {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.team-icon::before {
+    background: #eaeaea none repeat scroll 0 0;
+    bottom: 12px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 451px;
+}
+
+@media (max-width: 767px) {
+    .team-details-text {
+        margin-top: 30px;
+    }
+    .team-details-text h1 {
+        font-size: 20px;
+    }
+    .team-details-text>h3 {
+        font-size: 18px;
+        margin: 5px 0 15px;
+    }
+}
+
+
+/*Carousel Button*/
+
+.wppolitic_indicator1 .slick-arrow {
+    bottom: 50%;
+    transform: translateY(50%);
+    right: -46px;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    line-height: 44px;
+    text-align: center;
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    border-radius: 100%;
+    color: #aaa;
+    font-size: 18px;
+    height: 44px;
+    width: 44px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 99;
+}
+
+.wppolitic_indicator1 .slick-arrow.btn-prev {
+    right: auto;
+    left: -46px;
+}
+
+.wppolitic_indicator1 .slick-arrow:hover {
+    color: #ea000d;
+    border-color: #ea000d;
+}
+
+.wppolitic_indicator1:hover .slick-arrow {
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .wppolitic_indicator1 .slick-arrow.btn-prev {
+        right: 36px;
+        left: auto;
+    }
+    .wppolitic_indicator1 .slick-arrow {
+        right: 0;
+        height: 30px;
+        width: 30px;
+        font-size: 25px;
+        line-height: 25px;
+        top: -46px;
+    }
+}
+
+
+/*Blog Css*/
+
+.wppolitic_single_news {
+    margin-bottom: 30px;
+    padding-bottom: 28px;
+    transition: all 0.4s ease 0s;
+}
+
+.wppolitic-news-content h4 {
+    margin: 0 0 2px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.wppolitic-news-content h4 a {
+    color: #555;
+}
+
+.wppolitic-news-content {
+    padding: 20px 0 0;
+}
+
+.wppolitic-news-content p {
+    margin: 0;
+}
+
+.wppolitic-news-content .wppolitic_news-meta span {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 13px;
+}
+
+.wppolitic-news-content .wppolitic_news-meta span i {
+    margin-right: 5px;
+}
+
+.wppolitic-news-content .wppolitic_news-meta span:last-child {
+    padding-right: 0;
+}
+
+.wppolitic-news-content .wppolitic_news-meta span a {
+    color: #555;
+}
+
+.wppolitic-news-content .wppolitic_news-meta span a:hover,
+.wppolitic-news-content h4 a:hover {
+    color: #ffb200;
+}
+
+.pro-latest-news-active .slick-list {
+    margin: 0 -15px;
+}
+
+.pro-latest-news-active .wppolitic_single_news {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.wppolitic-news-content a.read-more {
+    transition: all 0.3s ease-in-out;
+    color: #555;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.wppolitic_news-meta {
+    margin-bottom: 10px;
+}
+
+.wppolitic-news-thumbnail>a,
+.wppolitic-wppolitic_blog-thumb>a {
+    display: inline-block;
+    position: relative;
+}
+
+.wppolitic-news-thumbnail>a:before,
+.wppolitic-wppolitic_blog-thumb>a:before {
+    background: rgba(0, 0, 0, 0);
+    content: "";
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    pointer-events: none;
+    right: 0;
+    bottom: 0;
+}
+
+.readmore_btrln .wppolitic-news-content a.read-more:before {
+    content: "--------";
+    color: #ea000d;
+    font-size: 0;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: -2px;
+    font-size: 0px;
+    position: relative;
+    top: -2px;
+    font-weight: bold;
+    margin-right: 0;
+}
+
+.wppolitic_single_news:hover .wppolitic-news-content a.read-more:before {
+    font-size: 12px;
+    margin-right: 7px;
+}
+
+.wppolitic_single_news:hover .wppolitic-news-thumbnail>a:before {
+    opacity: 1;
+}
+
+
+/*Blog Style Two*/
+
+.wppolitic_blog-post {
+    border: 1px solid #ddd;
+    margin-bottom: 40px !important;
+    transition: all 0.5s ease 0s;
+}
+
+.wppolitic_blog-post:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.wppolitic_blog-content {
+    padding: 21px 24px 24px;
+}
+
+.wppolitic_blog-content p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+
+.wppolitic_blog-content h4 {
+    color: #555;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin: 0 0 0.4em;
+    overflow-wrap: break-word;
+}
+
+.wppolitic_blog-meta {
+    align-items: center;
+    border-top: 1px solid #ddd;
+    color: #666;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content: space-between;
+    min-height: 40px;
+    padding: 5px 20px;
+}
+
+.wppolitic_blog-meta .wppolitic_post-date {
+    flex-grow: 100;
+}
+
+.wppolitic_blog-meta span i {
+    margin-right: 7px;
+    opacity: 0.9;
+    color: #E03927;
+}
+
+.wppolitic_blog-meta>span {
+    color: #999;
+    font-size: 14px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.wppolitic_blog-meta>span:last-child {
+    margin-right: 0;
+}
+
+.wppolitic_blog-meta a {
+    color: #999;
+}
+
+.wppolitic_blog-meta a:hover {
+    color: #F05B64;
+}
+
+.blog-column .wppolitic_blog-content p {
+    font-size: 14px;
+}
+
+.blog-column .wppolitic_blog-meta span {
+    font-size: 11px;
+}
+
+.blog-column .post-title {
+    font-size: 18px;
+}
+
+.blog-column .wppolitic_blog-content {
+    padding: 20px;
+}
+
+.wppolitic_blog-thumb>a::before,
+.wppolitic_blog-thumb>a::after {
+    background: rgba(0, 0, 0, 0.51);
+    content: "";
+    height: 200%;
+    left: 0;
+    opacity: 1;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transition: all 0.6s ease 0s;
+    width: 200%;
+}
+
+.wppolitic_blog-thumb>a::before {
+    transform: skew(45deg) translateX(100%);
+    z-index: 2;
+}
+
+.wppolitic_blog-thumb>a::after {
+    transform: skew(45deg) translateX(-100%);
+}
+
+.wppolitic_blog-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.wppolitic_blog-thumb>a {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.wppolitic_blog-post:hover .wppolitic_blog-thumb>a::before,
+.wppolitic_blog-post:hover .wppolitic_blog-thumb>a::after {
+    cursor: pointer;
+    transform: skew(45deg) translateX(0px);
+}
+
+.wppolitic_blog_extara_link a {
+    background: #e03927 none repeat scroll 0 0;
+    border-radius: 100%;
+    font-size: 21px;
+    height: 70px;
+    left: 0;
+    line-height: 70px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -50px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+    width: 70px;
+    z-index: 3;
+    color: #fff;
+}
+
+.wppolitic_blog-post:hover .wppolitic_blog_extara_link a {
+    top: 50%;
+}
+
+.wppolitic_blog-post .wppolitic_read-more {
+    margin-top: 20px;
+}
+
+.latest-blog-area .slick-dots li {
+    width: auto;
+    height: auto;
+    margin: 0 12px;
+    padding: 0;
+}
+
+.latest-blog-area .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    width: 100px;
+    height: 3px;
+    padding: 0;
+    background: red;
+    text-indent: -9999px;
+}
+
+.latest-blog-area .slick-dots li.slick-active button {
+    background: black;
+}
+
+
+/*Contact form*/
+
+.tnm-textarea {
+    margin-top: 32px;
+}
+
+.res-sub-input {
+    clear: both;
+    overflow: hidden;
+}
+
+.res-sub-input input {
+    max-width: 100%;
+}
+
+.di-na {
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.all-contact-area .all-contact-text p {
+    display: none;
+}
+
+div.wpcf7-response-output {
+    display: none;
+    float: left;
+    font-size: 12px;
+    margin: 2em 0.5em 1em;
+    padding: 7px 24px;
+    text-align: left;
+}
+
+.di-na.res-sub {
+    margin-bottom: 0;
+}
+
+div.wpcf7 .all-contact-area .ajax-loader {
+    margin-top: 4px;
+}
+
+.index_contaact_widget_area {
+    padding: 71px 0 18px;
+}
+
+.all-contact-text .di-na input[type="submit"] {
+    background-color: #333333;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 0px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.all-contact-text .di-na input[type="submit"]:hover {
+    background-color: #ea000d;
+}
+
+
+/*Responsice CSS*/
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 970px!important;
+    }
+    .wpcmp_style_2 .cdown {
+        padding-top: 10px;
+        font-size: 15px;
+        line-height: 25px;
+        text-transform: uppercase;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 750px!important;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (max-width: 991px) {
+    .wpcmp_style_2 .wp-campaign-image {
+        width: 100%;
+    }
+    .wpcmp_style_2 .wp-campaign-box {
+        flex-direction: column;
+    }
+    .wpcmp_style_2 .wp-campaign-content {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .wpcmp_style_2 .campaign-time {
+        height: 80px;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 21px;
+    }
+    .wpcmp_style_2 .count_style_1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .wpcmp_style_2 .cdown {
+        margin-left: 20px;
+        padding-top: 15px;
+    }
+    .wpcmp_style_2 .campaign-time::before {
+        top: 0;
+        height: 100%;
+        left: 78px;
+        right: auto;
+        width: 1px;
+    }
+    .wpcmp_style_2 .campaign-time i {
+        margin-right: 30px;
+    }
+    .htrelated-title h3 {
+        font-size: 23px;
+        margin: 0 0 30px;
+    }
+    .related-campaign-active.wppolitic_indicator-style-two .slick-arrow {
+        top: -63px;
+    }
+    .wp-campaign-box h3 {
+        font-size: 18px;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .container {
+        width: 95%
+    }
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 90%!important;
+    }
+    .wpcmp_style_2 .campaign-time {
+        height: 60px;
+    }
+    .wpcmp_style_2 .cdown {
+        padding-top: 5px;
+    }
+    .wpcmp_style_2 .campaign-time i {
+        padding-top: 12px;
+    }
+    .htrelated-title h3 {
+        font-size: 22px;
+    }
+    .related-campaign-active.wppolitic_indicator-style-two .slick-arrow {
+        top: -31px;
+        width: 30px;
+        height: 30px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .related-campaign-active.wppolitic_indicator-style-two .slick-arrow.btn-prev {
+        right: 35px;
+    }
+    .campaign-active.wppolitic_indicator-style-two .slick-arrow {
+        right: 0;
+        height: 30px;
+        width: 30px;
+        font-size: 30px;
+        line-height: 30px;
+        top: -31px;
+    }
+    .campaign-active.wppolitic_indicator-style-two .slick-arrow.btn-prev {
+        right: 36px;
+        left: auto;
+    }
+    .campaign-active .slick-arrow {
+        right: -20px;
+        font-size: 34px;
+    }
+    .campaign-active .slick-arrow.btn-prev {
+        left: -20px;
+    }
+    .wp-campaign-detals-content h3 {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .wppolitic-filter-menu-list button {
+        margin: 0 10px;
+    }
+    .related-area-wp-campaign {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .wp-campaign-image {
+        width: 100%;
+    }
+    .wp-campaign-box {
+        flex-direction: column;
+    }
+    .wp-campaign-content {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .wpcmp_style_2 .cdown {
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+    .wpcmp_style_2 .campaign-time::before {
+        left: 45px;
+    }
+    .wpcmp_style_2 .campaign-time i {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .wpcmp_style_2 .campaign-time i {
+        padding-top: 19px;
+    }
+    .wpcmp_style_2 .campaign-time {
+        padding-left: 15px;
+    }
+    .campaign-active .slick-list,
+    .campaign-active .wp-campaign-box {
+        margin: 0 0!important;
+    }
+}
+
+
+/* ============= 2. About Us ============= */
+
+.aboutus-video {
+    box-sizing: border-box;
+    display: inline-block;
+    min-height: 300px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background-size: cover!important;
+    background-position: center center!important;
+}
+
+.wppolitic_popup-youtube {
+    color: #fff;
+    font-size: 60px;
+    height: 70px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+    width: 70px;
+    z-index: 2;
+    line-height: 70px;
+    transform: translateY(-50%);
+}
+
+.aboutus-video::before {
+    background: #000;
+    position: absolute;
+    content: "";
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+    width: auto!important;
+    background: transparent;
+    border: none;
+}
+
+.video-content.wppolitic {
+    height: 100%;
+}
+
+.video-content.wppolitic h4 {
+    position: relative;
+    color: #fff;
+    top: 50%;
+    margin-top: 82px;
+}
+
+.video-content.wppolitic h4 span {
+    color: #e03927;
+}
+
+
+/*-- Single Skill --*/
+
+.wppolitic-single-skill+.wppolitic-single-skill {
+    margin-top: 30px;
+}
+
+.wppolitic-single-skill .wppolitic-title {
+    float: left;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.wppolitic-single-skill .wppolitic-percent {
+    float: right;
+    margin-bottom: 6px;
+}
+
+.wppolitic-single-skill .wppolitic-progress {
+    float: left;
+    width: 100%;
+    clear: both;
+    background-color: #e3e3e3;
+    height: 6px;
+    border-radius: 6px
+}
+
+.wppolitic-single-skill .wppolitic-progress .bar {
+    height: 5px;
+    display: block;
+    background: #F5B120;
+    border-radius: 6px;
+}
+
+
+/* =============  
+  Testimonial Area
+  ============= */
+
+.wppolitic_testimonial_active .testimonial-image {
+    margin-bottom: 22px;
+}
+
+.wppolitic_testimonial_active .testimonial-content>h6 {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 4px;
+    position: relative;
+}
+
+.wppolitic_testimonial_active .testimonial-content>span {
+    color: #555;
+    font-size: 14px;
+}
+
+.wppolitic_testimonial_active .testimonial-image {
+    margin-bottom: 18px;
+}
+
+.wppolitic_testimonial_active .testimonial-image>img {
+    display: inline-block !important;
+    width: auto !important;
+}
+
+.wppolitic_testimonial_active .testimonial-content>p {
+    padding: 0 200px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.wppolitic_testimonial_active .owl-dots .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.wppolitic_testimonial_active .owl-dots {
+    margin-top: 50px;
+}
+
+.wppolitic_testimonial_active .owl-dot span {
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    bottom: 0;
+    left: 0;
+    display: block;
+    border: 2px solid #fff;
+    transition: all 0.3s ease-in-out;
+    border-radius: 100%;
+}
+
+.wppolitic_testimonial_active .owl-dot.active span {
+    background: #fff;
+}
+
+.indicator3 .owl-nav [class*="owl-"] {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0;
+    color: #555555;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 34px;
+    margin: 0 -3px;
+    padding: 0;
+    transition: .4s;
+    position: absolute;
+    opacity: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.indicator3 .owl-nav [class*="owl-"]:hover {
+    color: #ffb200
+}
+
+.indicator3 .owl-nav .owl-prev {
+    right: auto;
+    left: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wppolitic_testimonial_active .testimonial-content>p {
+        padding: 0 130px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .wppolitic_testimonial_active .testimonial-content>p {
+        padding: 0 15px;
+    }
+}
+
+
+/*Portfolio Details*/
+
+.banner-info ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.banner-info ul li {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.banner-info ul li span {
+    color: #282828;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.banner-info h4 {
+    color: #555;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.portfolio-item-info>h3 {
+    color: #5b5b5b;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+.related-projects-title {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+/*-- Mission Content --*/
+
+.mission-content {
+    align-self: center;
+}
+
+.mission-content h5 {
+    color: #e03927;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.mission-content h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #191919;
+    line-height: 36px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 479px) {
+    .mission-content h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+.mission-content h3 {
+    color: #e03927;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 479px) {
+    .mission-content h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+.mission-content p {
+    font-size: 18px;
+    margin-bottom: 26px;
+    line-height: 30px;
+}
+
+
+/*-- Mission Map --*/
+
+.mission-map {
+    width: 100%;
+    height: 330px;
+    overflow: visible !important;
+}
+
+.jqvmap-pin {
+    z-index: 999;
+}
+
+.vmap-pin {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -6px;
+    margin-top: -6px;
+    background-color: #ffffff;
+    border: 3px solid #e03927;
+    border-radius: 50%;
+}
+
+
+/*-- Mission Map Content --*/
+
+.vmap-pin-text {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 5px 10px rgba(25, 25, 25, 0.3);
+    box-shadow: 0 5px 10px rgba(25, 25, 25, 0.3);
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    display: none;
+    opacity: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.vmap-pin-text::before {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    content: "";
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #ffffff;
+}
+
+.vmap-pin-text.open {
+    display: block;
+    opacity: 1;
+}
+
+.vmap-pin-text h4 {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.vmap-pin-text p {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 18px;
+}
+
+
+/*Misson Style 2 CSS*/
+
+.wppolitic-mission-category {
+    text-align: center;
+    position: relative;
+    padding: 0 10px;
+}
+
+.mission_new_style .wppolitic_indicator1 .slick-arrow {
+    opacity: 1;
+}
+
+.wppolitic-mission-category span {
+    cursor: pointer;
+    color: #000;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.slick-current.slick-active .wppolitic-mission-category span {
+    color: #e03927;
+}
+
+.slider.wppolitic_mission_slider_nav {
+    padding: 0 100px;
+    margin-bottom: 70px;
+}
+
+.slick-active .wppolitic-mission-category:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 8px;
+    background: #051b33;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) translateX(50%);
+}
+
+.wppolitic-mission-content h2 {
+    font-size: 48px;
+    color: #333;
+    margin-top: 0;
+}
+
+.wppolitic-mission-content p {
+    font-size: 16px;
+    color: #333;
+}
+
+.wppolitic-mission-progress {
+    padding-right: 30px;
+}
+
+.wppolitic-mission-content .wppolitic-single-skill .wppolitic-title {
+    color: #333;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.wppolitic-mission-readmore>a {
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #051b33;
+    color: #fff;
+    display: inline-block;
+}
+
+.wppolitic-mission-readmore>a:hover {
+    background: #e03927;
+    color: #fff;
+}
+
+.wppolitic-mission-video-content h5 {
+    background: #e03927;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    margin-top: -40px;
+    margin-bottom: 0;
+    padding: 53px 26px 22px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.wppolitic-mission-video {
+    margin-right: 25px;
+}
+
+.mission_new_style .wppolitic_indicator1 .slick-arrow {
+    right: 0;
+    top: auto;
+}
+
+.mission_new_style .wppolitic_indicator1 .slick-arrow.btn-prev {
+    left: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .wppolitic-mission-content h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .slick-active .wppolitic-mission-category::before {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .slider.wppolitic_mission_slider_nav {
+        padding: 0 40px;
+        margin-bottom: 40px;
+    }
+    .wppolitic-mission-video-content {
+        margin-top: 50px;
+    }
+}
+
+
+/*Campaign Style 6*/
+
+.wppolitic-campaign-tlmn {
+    position: relative;
+    padding: 0 50px;
+}
+
+.wppolitic-campaign-tlmn:after,
+.wppolitic-campaign-tlmn:before,
+.campaign_new_style_6:before {
+    position: absolute;
+    border-bottom: 1px solid #aaa;
+    content: "";
+    left: 0;
+    top: 73px;
+    width: 100%;
+    z-index: 0;
+}
+
+.wppolitic-campaign-tlmn:after {
+    left: 100%;
+    position: absolute;
+    width: 43px;
+    height: 7px;
+    margin-top: -14px;
+    background: transparent;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+    border-left: 22px solid #e03927;
+}
+
+.campaign_new_style_6 {
+    position: relative;
+}
+
+.campaign_new_style_6:before {
+    left: 0px;
+    height: 15px;
+    width: 2px;
+    top: 66px;
+    background: #e03927;
+    z-index: 4;
+}
+
+.wppolitic-campaign-tlmn_box {
+    text-align: center;
+    position: relative;
+    padding: 0 15px;
+}
+
+.wppolitic-campaign-tlmn_box span {
+    color: #051b33;
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 37px;
+    display: block;
+    margin-bottom: 37px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.wppolitic-campaign-tlmn_box span:after,
+.wppolitic-campaign-tlmn_box span:before,
+.wppolitic-campaign-tlmn_box:after {
+    content: "";
+    height: 30px;
+    left: 50%;
+    background: #aaa;
+    position: absolute;
+    bottom: 0px;
+    width: 1px;
+    z-index: 5;
+}
+
+.wppolitic-campaign-tlmn_box span:before {
+    width: 15px;
+    height: 1px;
+    bottom: 30px;
+    margin-left: -7px;
+}
+
+.wppolitic-campaign-tlmn_box:after {
+    height: 15px;
+    width: 15px;
+    background: #e03927;
+    top: 67px;
+    bottom: auto;
+    margin-left: -7px;
+    border-radius: 100%;
+}
+
+.wppolitic-campaign-tlmn_box h5 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.wppolitic-campaign-tlmn_box p {
+    margin: 0;
+    color: #555;
+}
+
+@media only screen and (max-width: 767px) {
+    .slider.wppolitic_slider_for {
+        margin-bottom: 40px;
+    }
+    .wppolitic_event_desc_5 h3 {
+        font-size: 21px;
+    }
+    .wppolitic_event_desc_5 h5 {
+        font-size: 14px;
+    }
+    .wppolitic-campaign-tlmn {
+        padding: 0px 15px;
+    }
+    .wpp_b_st3 .wppolitic-news-thumbnail {
+        padding-right: 20px;
+    }
+}
+
+
+/*Blog Style Three Css*/
+
+.wppolitic_single_news.wpp_b_st3 {
+    display: flex;
+}
+
+.wpp_b_st3 .wppolitic-news-thumbnail {
+    flex: 0 0 45%;
+    padding-right: 30px;
+}
+
+
+/*Team New Style */
+
+.wpp_team_st2 .wppolitic-team-social {
+    position: relative;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    height: auto;
+}
+
+.wpp_team_st2 .wppolitic-team-social>ul {
+    transform: translateY(0%);
+    margin: 0;
+    padding: 0;
+}
+
+.wpp_team_st2 .wppolitic-team-thumb-content {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgba(224, 57, 39, 0.9);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    justify-content: center;
+}
+
+.wpp_team_st2 .wppolitic-team-social:after {
+    display: none;
+}
+
+.wpp_team_st2 .wppolitic-team-social>ul li a i {
+    border-radius: 100%;
+}
+
+.wpp_team_st2:hover .wppolitic-team-thumb-content {
+    opacity: 1;
+}
+
+.fancybox-navigation button:hover {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.fancybox-navigation button:focus {
+    outline: none;
+}
+
+
+/* Elementor Custom Css */
+
+.education_content figure.elementor-image-box-img {
+    margin-top: 4px!important;
+}
+
+
+/* Paging Slider Css */
+
+.swiper-container.swiper-container-vertical {
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #fff;
+    overflow: hidden;
+}
+
+.swiper-container-vertical .swiper-slide {
+    text-align: left;
+    font-size: 18px;
+    background: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.scroll-navigation-inner {
+    width: 100%;
+}
+
+.swiper-pagination-bullet {
+    opacity: 1!important;
+}
+
+.swiper_slide_title {
+    position: absolute;
+    left: 0px;
+    width: auto;
+    z-index: 9;
+    margin-left: 60px;
+}
+
+.swiper_slide_title h2 {
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    margin: 0;
+}
+
+.scroll-navigation-inner {
+    width: 100%;
+}
+
+@media (min-width: 1300px) and (max-width: 1599px) {
+    .swiper_slide_title {
+        margin-left: 30px;
+    }
+    .swiper-container {
+        height: 586px!important;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1300px) {
+    .swiper_slide_title {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 991px) {
+    .swiper_slide_title {
+        display: none;
+    }
+    .swiper-container {
+        height: 100vh!important;
+        overflow-y: scroll;
+    }
+    .scroll-navigation-inner {
+        overflow-y: scroll;
+        height: 100%;
+    }
+}
+/* contact form response */
+div.wpcf7-response-output{
+    display:block
+}
+.wpp .nav-tab-wrapper, .wpp .wrap h2.nav-tab-wrapper{
+	margin-bottom: 15px;
+}
